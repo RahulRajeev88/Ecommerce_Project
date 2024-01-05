@@ -133,3 +133,12 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 
 CART_SESSION_ID = 'cart'
+
+
+#Email server configuration
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'rahulkodinjamkunnel@gmail.com'
+EMAIL_HOST_PASSWORD = 'awyk petx qzwg wyst '
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
