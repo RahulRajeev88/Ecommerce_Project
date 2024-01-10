@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'shop',
     'cart',
     'orders',
+    'payment',
 ]
 
 MIDDLEWARE = [
@@ -142,3 +143,11 @@ EMAIL_HOST_USER = 'rahulkodinjamkunnel@gmail.com'
 EMAIL_HOST_PASSWORD = 'awyk petx qzwg wyst '
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
+
+
+# Stripe Settings
+
+STRIPE_PUBLISHABLE_KEY = 'pk_test_51OWHgLSJ1tm9ZPJdiCGtOBUBKRFsBmnhdzfLdrQPqpifFrjkSF91IG3o8oYTX8RhZ0lP5Jj5x50FVp19zZcZqH6m00GmHUkNgp'
+STRIPE_SECRET_KEY = 'sk_test_51OWHgLSJ1tm9ZPJdDbUx3I917uH9Wca9o1utej2Dcd6eK5hB0UFVNmmbsgH6KMOGLI6CEp3J95F8lERtwkH7jLP600aPSJ7lMU'
+STRIPE_API_VERSION = '2023-10-16'
