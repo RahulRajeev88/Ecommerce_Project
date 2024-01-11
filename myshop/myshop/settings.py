@@ -122,6 +122,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = BASE_DIR / 'static'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
@@ -151,3 +152,5 @@ EMAIL_USE_TLS = True
 STRIPE_PUBLISHABLE_KEY = 'pk_test_51OWHgLSJ1tm9ZPJdiCGtOBUBKRFsBmnhdzfLdrQPqpifFrjkSF91IG3o8oYTX8RhZ0lP5Jj5x50FVp19zZcZqH6m00GmHUkNgp'
 STRIPE_SECRET_KEY = 'sk_test_51OWHgLSJ1tm9ZPJdDbUx3I917uH9Wca9o1utej2Dcd6eK5hB0UFVNmmbsgH6KMOGLI6CEp3J95F8lERtwkH7jLP600aPSJ7lMU'
 STRIPE_API_VERSION = '2023-10-16'
+
+STRIPE_WEBHOOK_SECRET = 'whsec_29d23f8dc82a361fbb30a8d5f968dd90ca306174df479259ccc725fbc0d16cf3'

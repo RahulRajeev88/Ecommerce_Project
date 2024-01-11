@@ -37,8 +37,8 @@ def payment_process(request):
                     'product_data': {
                         'name':item.product.name,
 
-                    }
-                }
+                    },
+                },
                 'quantity':item.quantity,
             })
 
